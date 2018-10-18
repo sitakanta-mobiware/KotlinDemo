@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         var count: Int = Integer.parseInt(countString)
         count++
+        Log.i("count", "" + count++)
 
         showCountTextView.text = count.toString()
 
